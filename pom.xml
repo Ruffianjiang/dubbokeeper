@@ -24,34 +24,34 @@
         <maven.compiler.target>1.6</maven.compiler.target>
 
         <dubbo.version>2.6.12</dubbo.version>
-        <spring_version>6.1.21</spring_version>
+        <spring_version>7.0.8</spring_version>
         <lucene_version>5.3.0</lucene_version>
         <findbugs.excludeFilterFile>findbugs-exclude.xml</findbugs.excludeFilterFile>
         <common.io.version>2.2</common.io.version>
         <dubbo.plus.netty4.version>0.0.6</dubbo.plus.netty4.version>
-        <jackson.version>2.18.9</jackson.version>
+        <jackson.version>2.22</jackson.version>
         <commons.lang.version>2.6</commons.lang.version>
-        <fastjson.version>1.2.83</fastjson.version>
+        <fastjson.version>2.0.64</fastjson.version>
         <zk.version>0.1</zk.version>
-        <zookeeper.version>3.7.2</zookeeper.version>
-        <logback.version>1.3.12</logback.version>
-        <disruptor.version>3.3.4</disruptor.version>
-        <junit.version>4.13.1</junit.version>
+        <zookeeper.version>3.9.5</zookeeper.version>
+        <logback.version>1.6.3</logback.version>
+        <disruptor.version>4.0.0</disruptor.version>
+        <junit.version>4.13.2</junit.version>
         <standard.version>1.1.2</standard.version>
         <jstl.version>1.1.2</jstl.version>
-        <jetty-all.version>8.1.0.RC5</jetty-all.version>
+        <jetty-all.version>11.0.0.beta1</jetty-all.version>
         <javax.el.version>2.2.0.v201303151357</javax.el.version>
         <org.apache.jasper.glassfish.version>2.2.2.v201112011158
         </org.apache.jasper.glassfish.version>
-        <javax.servlet-api.version>3.0.1</javax.servlet-api.version>
-        <slf4j-api.version>1.7.12</slf4j-api.version>
-        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
-        <mybatis.version>3.5.6</mybatis.version>
-        <mybatis-spring.version>1.3.0</mybatis-spring.version>
+        <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
+        <slf4j-api.version>2.0.18</slf4j-api.version>
+        <mysql-connector-java.version>8.0.33</mysql-connector-java.version>
+        <mybatis.version>3.5.19</mybatis.version>
+        <mybatis-spring.version>4.1.0</mybatis-spring.version>
         <commons-dbcp.version>1.4</commons-dbcp.version>
-        <commons-dbutils.version>1.6</commons-dbutils.version>
-        <spring-data-mongodb.version>3.3.5</spring-data-mongodb.version>
-        <lucene-core.version>8.7.0</lucene-core.version>
+        <commons-dbutils.version>1.8.1</commons-dbutils.version>
+        <spring-data-mongodb.version>5.1.0</spring-data-mongodb.version>
+        <lucene-core.version>8.11.4</lucene-core.version>
     </properties>
 
     <dependencyManagement>
@@ -229,7 +229,7 @@
             <dependency>
                 <groupId>org.mongodb</groupId>
                 <artifactId>mongo-java-driver</artifactId>
-                <version>3.0.4</version>
+                <version>3.12.14</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.data</groupId>
@@ -303,7 +303,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>findbugs-maven-plugin</artifactId>
-                <version>2.5.3</version>
+                <version>3.0.5</version>
                 <configuration>
                     <xmlOutput>true</xmlOutput>
                     <xmlOutputDirectory>target/site</xmlOutputDirectory>
@@ -316,7 +316,7 @@
             <plugins>
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>2.3.2</version>
+                    <version>3.15.0</version>
                     <configuration>
                         <encoding>UTF-8</encoding>
                         <fork>true</fork>
@@ -332,7 +332,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>2.5.3</version>
+                <version>3.8.0</version>
                 <configuration>
                     <finalName>${final-name}</finalName>
                     <descriptors>
