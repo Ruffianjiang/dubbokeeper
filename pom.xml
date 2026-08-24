@@ -24,7 +24,7 @@
         <maven.compiler.target>1.6</maven.compiler.target>
 
         <dubbo.version>2.6.12</dubbo.version>
-        <spring_version>7.0.8</spring_version>
+        <spring_version>7.0.9</spring_version>
         <lucene_version>5.3.0</lucene_version>
         <findbugs.excludeFilterFile>findbugs-exclude.xml</findbugs.excludeFilterFile>
         <common.io.version>2.2</common.io.version>
@@ -50,7 +50,7 @@
         <mybatis-spring.version>4.1.0</mybatis-spring.version>
         <commons-dbcp.version>1.4</commons-dbcp.version>
         <commons-dbutils.version>1.8.1</commons-dbutils.version>
-        <spring-data-mongodb.version>5.1.0</spring-data-mongodb.version>
+        <spring-data-mongodb.version>5.1.1</spring-data-mongodb.version>
         <lucene-core.version>8.11.4</lucene-core.version>
     </properties>
 
