@@ -44,7 +44,7 @@
         <org.apache.jasper.glassfish.version>2.2.2.v201112011158
         </org.apache.jasper.glassfish.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
-        <slf4j-api.version>2.0.18</slf4j-api.version>
+        <slf4j-api.version>2.0.19</slf4j-api.version>
         <mysql-connector-java.version>8.0.34</mysql-connector-java.version>
         <mybatis.version>3.5.19</mybatis.version>
         <mybatis-spring.version>4.1.0</mybatis-spring.version>
